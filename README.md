@@ -21,7 +21,7 @@ Setup
 -----
 
 * Create a directory to hold these utilities
-* Clone this repo into the directory (git clone XXX)
+* Clone this repo into the directory (git clone https://github.com/eoinwoods/sess.git)
 * Download the [EC2 API Tools](https://aws.amazon.com/developertools/351) and unzip them into a subdirectory (something like `c2-api-tools-1.6.13.0`)
 * Untar/unzip the scripts into the directory
 * Retrieve your AWS access key and AWS secret key from AWS and create a file `AWS-credentials.txt` file to hold them in this format:
