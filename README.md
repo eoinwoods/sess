@@ -1,5 +1,5 @@
-Simple AWS EC2 Scripts - SAES
-=============================
+Simple EC2 Script Set - SESS
+============================
 
 Overview
 --------
