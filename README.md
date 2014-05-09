@@ -24,11 +24,10 @@ Setup
 * Down load the [EC2 API Tools](https://aws.amazon.com/developertools/351) and unzip them into a subdirectory (something like `c2-api-tools-1.6.13.0`)
 * Untar/unzip the scripts into the directory
 * Retrieve your AWS access key and AWS secret key from AWS and create a file `AWS-credentials.txt` file to hold them in this format:
-
-    > WS_ACCESS_KEY: AABBCCDDEEFF
-    
-    > AWS_SECRET_KEY: nsusUshdSUSDHSJS+SKHD
-
+```
+    WS_ACCESS_KEY: AABBCCDDEEFF
+    AWS_SECRET_KEY: nsusUshdSUSDHSJS+SKHD
+```
 * You can now run the utilities.  Start with `aws-list-servers.sh` to list your servers, then you can create, copy to, ssh to and destroy servers to your heart's content.
 
 
