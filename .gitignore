@@ -1,0 +1,4 @@
+*.txt
+*.zip
+*.pem
+ec2-api-tools*/
