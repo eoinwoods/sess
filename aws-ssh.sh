@@ -1,6 +1,6 @@
 if [ $# -gt 2 ]
 then
-   echo "Usage: $0 [hostname [user]]"
+   echo "Usage: $0 hostname [user]"
    exit 1
 fi
 host=${1}
