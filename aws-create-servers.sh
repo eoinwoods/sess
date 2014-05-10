@@ -13,11 +13,10 @@ echo "Creating $count instances"
 export AMI_ID=ami-a921dfde
 export TYPE=m1.small
 export COUNT=$count
-export GROUP=CopseGroup
 ec2-run-instances $AMI_ID \
         --instance-type $TYPE \
 	--key primary-key-pair \
-	--group "$GROUP" \
+	--group "$AWS_GROUP" \
   	--region eu-west-1 \
 	--instance-count $COUNT
 
