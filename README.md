@@ -13,7 +13,7 @@ The scripts are as follows:
 * `aws-cp-to-servers.sh` - copy a specified file to the servers that `aws-list-servers.sh` lists (as the `ec2-user` unless otherwise specified)
 * `aws-list-servers.sh` - list the servers that the current user owns, apart from those which are `terminated`
 * `aws-term-servers.sh` - terminate all servers the current user owns (as returned by `aws-list-servers.sh`)
-* `aws-create-servers.sh` - create "n" EC3 servers (of type "m1.small")
+* `aws-create-servers.sh` - create "n" EC2 vanilla Linux servers (of type "m1.small")
 * `aws-ssh.sh` - creates an SSH session to the specified EC2 server
 * `setenv.sh` - set up the environment variables that the scripts need
 
