@@ -5,4 +5,4 @@ then
 fi
 host=${1}
 user=${2:-ec2-user}
-ssh -i AWS_KEYPAIR_FILE $user@$host
+ssh -i $AWS_KEYPAIR_FILE $user@$host
