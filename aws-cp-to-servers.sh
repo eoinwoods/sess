@@ -9,14 +9,12 @@ then
   exit 1 
 fi
 
-keypairfile=~/Dropbox/AWS/primary-key-pair.pem
-
 files=$*
 instance_ids=$(ec2-describe-instance-status | grep "INSTANCE[[:space:]]" | awk '{print $2}')
 for i in $instance_ids
 do
     dns_name=$(ec2-describe-instances $i | grep INSTANCE | awk '{print $4}')
-    cmd="scp -i $keypairfile $files ec2-user@$dns_name:."
+    cmd="scp -i AWS_KEYPAIR_FILE $files ec2-user@$dns_name:."
     echo $cmd
     eval $cmd
 done
