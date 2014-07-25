@@ -1,4 +1,4 @@
-if [ $# -gt 2 ]
+if [ $# -gt 2 -o $# -lt 1 ]
 then
    echo "Usage: $0 hostname [user]"
    exit 1
